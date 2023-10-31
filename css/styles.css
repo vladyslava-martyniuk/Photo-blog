@@ -97,7 +97,7 @@ img {
   font-size: 14px;
   text-transform: uppercase;
 }
-.main-content-subtitle:nth-child(n + 3) {
+.main-content-item:nth-child(n + 3)  .main-content-subtitle{
   margin-top: 32px;
 }
 .main-content-item-title {
@@ -119,6 +119,7 @@ img {
 }
 .main-content-btn:hover,
 .main-content-btn:focus {
+  margin-top: 90px;
   background-color: var(--accent-color);
   color: white;
   cursor: pointer;
